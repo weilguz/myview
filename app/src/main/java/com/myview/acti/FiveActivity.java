@@ -1,6 +1,7 @@
 package com.myview.acti;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Rect;
@@ -76,8 +77,8 @@ public class FiveActivity extends AppCompatActivity implements View.OnClickListe
                 linearLayoutManager.scrollToPosition(0);
                 break;
             case R.id.six_btn:
-//                Intent intent = new Intent(FiveActivity.this,SixActivity.class);
-//                startActivity(intent);
+                Intent intent = new Intent(FiveActivity.this,SixActivity.class);
+                startActivity(intent);
                 break;
 
         }
