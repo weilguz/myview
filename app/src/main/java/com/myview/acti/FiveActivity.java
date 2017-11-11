@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,6 +35,8 @@ public class FiveActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_five);
         arrayList = getData();
 
+
+        Log.e("wwww","wwwwwwwwwwwww");
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.five_rlv);
         Button addItem = (Button) findViewById(R.id.add_btn);
         Button removeItem = (Button) findViewById(R.id.remove_btn);
